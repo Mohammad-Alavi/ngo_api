@@ -17,6 +17,6 @@ class Controller extends WebController
      */
     public function sayWelcome()
     {
-        return view('user::user-welcome');
+        return view('user-welcome');
     }
 }
